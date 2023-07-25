@@ -8,20 +8,20 @@
 
 #### Como ejecutarlo.
 - Los datos que he utilizado para crear la base de datos son los siguientes:
+   
 
-
-    CREATE DATABASE MVCCRUD
-    USE MVCCRUD
-    
-    CREATE TABLE Usuarios(
-    Id int identity(1,1) primary key,
-    Nombre varchar(50),
-    Fecha date,
-    Clave varchar(50),
-    Ciudad varchar(50)
-    )
-    
-    select * from Usuarios
+        CREATE DATABASE MVCCRUD
+        USE MVCCRUD
+        
+        CREATE TABLE Usuarios(
+        Id int identity(1,1) primary key,
+        Nombre varchar(50),
+        Fecha date,
+        Clave varchar(50),
+        Ciudad varchar(50)
+        )
+        
+        select * from Usuarios
 
 - La línea Scaffold-DbContext que he introducido es la siguiente:
 
@@ -29,7 +29,7 @@
     Scaffold-DbContext "server=DESKTOP-QHVV51P\SQLEXPRESS; database=MVCCRUD; integrated security=true; TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
 En la parte del server he metido los datos del servidor que tengo creado en local, pero una línea genérica sería así:
-
+    
 
     Scaffold-DbContext "server=localhost; database=MVCCRUD; integrated security=true; TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
