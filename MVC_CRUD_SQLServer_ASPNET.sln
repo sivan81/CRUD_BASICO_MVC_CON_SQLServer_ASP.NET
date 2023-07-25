@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_CRUD_SQLServer_ASPNET", "MVC_CRUD_SQLServer_ASPNET\MVC_CRUD_SQLServer_ASPNET.csproj", "{6578CF8D-D1D5-48F6-BA0C-2A86A1B6CDBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6578CF8D-D1D5-48F6-BA0C-2A86A1B6CDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6578CF8D-D1D5-48F6-BA0C-2A86A1B6CDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6578CF8D-D1D5-48F6-BA0C-2A86A1B6CDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6578CF8D-D1D5-48F6-BA0C-2A86A1B6CDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47B658C9-6E0A-4C99-9204-D0821EBDB5DB}
+	EndGlobalSection
+EndGlobal
